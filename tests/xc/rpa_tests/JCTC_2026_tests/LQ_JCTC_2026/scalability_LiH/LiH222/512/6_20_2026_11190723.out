@@ -1,0 +1,1136 @@
+---------------------------------------
+Begin Slurm Prolog: Jul-15-2026 13:23:08
+Job ID:    11190723
+User ID:   ahaque41
+Account:   gts-echow7-coda20
+Job name:  run.sh
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+Lmod is automatically replacing "mvapich2/2.3.7-1" with "openmpi/4.1.5".
+
+Failed to create orbital folder orbitals! Maybe there is such folder.
+read block size 1
+After symmetry reduction, Nqpts_sym = 1
+global rank 0, maxBlockSize 1, minBlockSize 1
+rank = 0, myrank_mpi 0, nprocs_mpi 512, bandcomm_index 0, dmcomm exist 1, myrow 0, nprow 1, mycol 0, npcol 1
+the time for composing permute matrix is 3.696 ms
+WARNING: Number of bands may be insufficient for efficient SCF convergence.
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band20_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band21_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band22_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band23_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band24_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band25_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band26_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band27_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band28_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band29_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band30_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band31_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band32_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band33_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band34_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band35_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band36_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band37_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band38_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band39_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band40_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band41_spin0.orbit, folder directory length -1
+I am rank 0 in nuChi0Eigscomm 256, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 256, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 384, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 384, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 272, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 272, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 336, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 336, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 480, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 480, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 368, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 368, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 432, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 432, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 112, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 112, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 224, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 224, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 48, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 48, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 176, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 176, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 32, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 32, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 400, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 400, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 64, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 64, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 144, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 144, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 96, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 96, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 192, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 192, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 257, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 257, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 385, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 385, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 320, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 320, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 273, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 273, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 496, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 496, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 304, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 304, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 464, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 464, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 208, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 208, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 337, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 337, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 128, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 128, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 80, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 80, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 240, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 240, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 352, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 352, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 481, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 481, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 416, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 416, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 369, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 369, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 433, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 433, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 288, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 288, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 113, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 113, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 448, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 448, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 160, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 160, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 225, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 225, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 49, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 49, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 177, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 177, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 33, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 33, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 16, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 16, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 401, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 401, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 65, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 65, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 145, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 145, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 97, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 97, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 193, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 193, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 258, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 258, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 386, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 386, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 321, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 321, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 274, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 274, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 497, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 497, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 305, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 305, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 465, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 465, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 209, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 209, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 338, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 338, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 129, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 129, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 81, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 81, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 241, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 241, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 353, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 353, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 482, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 482, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 417, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 417, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 370, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 370, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 434, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 434, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 289, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 289, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 114, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 114, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 449, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 449, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 161, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 161, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 226, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 226, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 50, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 50, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 178, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 178, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 34, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 34, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 17, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 17, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+the name of the orbital file is orbitals/band42_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band43_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band44_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band45_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band46_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band47_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band48_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band49_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band50_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band51_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band52_spin0.orbit, folder directory length -1
+I am rank 0 in nuChi0Eigscomm 402, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 402, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 66, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 66, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 146, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 146, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 98, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 98, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 194, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 194, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 259, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 259, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 387, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 387, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 322, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 322, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 275, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 275, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 498, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 498, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 306, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 306, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 466, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 466, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 210, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 210, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 339, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 339, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 130, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 130, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 82, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 82, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 242, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 242, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 354, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 354, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 483, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 483, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 418, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 418, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 371, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 371, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 435, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 435, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 290, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 290, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 115, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 115, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 450, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 450, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 162, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 162, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 227, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 227, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 51, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 51, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 179, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 179, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 35, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 35, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 18, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 18, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+the name of the orbital file is orbitals/band53_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band54_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band55_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band56_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band57_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band58_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band59_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band60_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band61_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band62_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band63_spin0.orbit, folder directory length -1
+I am rank 0 in nuChi0Eigscomm 403, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 403, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 67, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 67, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 147, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 147, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 99, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 99, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 195, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 195, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 260, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 260, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 388, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 388, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 323, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 323, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 276, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 276, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 499, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 499, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 307, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 307, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 467, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 467, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 211, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 211, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 340, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 340, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 131, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 131, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 83, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 83, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 243, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 243, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 355, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 355, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 484, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 484, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 419, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 419, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 372, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 372, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 436, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 436, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 291, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 291, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 116, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 116, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 452, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 452, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 163, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 163, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 228, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 228, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 52, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 52, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 180, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 180, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 36, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 36, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 19, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 19, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+the name of the orbital file is orbitals/band64_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band65_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band66_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band67_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band68_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band69_spin0.orbit, folder directory length -1
+I am rank 0 in nuChi0Eigscomm 0, pSPARC->Xorb[2] is -1.547633E-04
+I am rank 0 in nuChi0Eigscomm 0; the 2th density is  0.114397
+I am 0 in nuChi0Eigscomm 0, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+qpt 1, omega 1, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.071067, tolErpaTermConverge 0.000000, flagIter 26134608
+qpt 1, omega 2, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.689415, tolErpaTermConverge 0.000000, flagIter 26134864
+I am rank 0 in nuChi0Eigscomm 404, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 404, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 68, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 68, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 148, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 148, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 100, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 100, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 196, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 196, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 261, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 261, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 389, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 389, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 324, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 324, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 277, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 277, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 500, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 500, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 308, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 308, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 468, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 468, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 212, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 212, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 341, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 341, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 132, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 132, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 84, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 84, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 244, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 244, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 356, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 356, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 485, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 485, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 420, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 420, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 373, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 373, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 437, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 437, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 292, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 292, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 117, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 117, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 453, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 453, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 164, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 164, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 229, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 229, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 53, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 53, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 181, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 181, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 37, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 37, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 20, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 20, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+qpt 1, omega 3, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.940640, tolErpaTermConverge 0.000000, flagIter 26071968
+qpt 1, omega 4, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.866973, tolErpaTermConverge 0.000000, flagIter 26134864
+qpt 1, omega 5, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.887984, tolErpaTermConverge 0.000000, flagIter 12487584
+qpt 1, omega 6, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.956344, tolErpaTermConverge 0.000000, flagIter 26073088
+qpt 1, omega 7, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.739633, tolErpaTermConverge 0.000000, flagIter 26071968
+qpt 1, omega 8, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.313154, tolErpaTermConverge 0.000000, flagIter 26134864
+The RPA calculation took 3235.585 s.
+The program took 3235.605 s.
+I am rank 0 in nuChi0Eigscomm 405, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 405, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 69, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 69, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 149, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 149, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 101, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 101, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 197, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 197, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 262, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 262, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 390, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 390, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 325, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 325, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 278, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 278, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 501, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 501, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 309, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 309, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 469, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 469, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 213, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 213, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 342, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 342, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 133, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 133, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 85, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 85, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 245, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 245, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 357, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 357, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 486, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 486, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 421, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 421, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 374, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 374, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 438, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 438, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 293, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 293, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 118, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 118, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 454, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 454, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 165, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 165, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 230, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 230, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 54, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 54, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 182, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 182, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 38, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 38, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 21, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 21, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 1, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 1, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 406, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 406, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 70, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 70, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 150, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 150, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 102, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 102, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 198, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 198, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 263, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 263, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 391, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 391, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 326, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 326, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 279, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 279, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 502, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 502, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 310, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 310, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 470, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 470, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 214, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 214, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 343, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 343, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 134, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 134, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 86, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 86, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 246, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 246, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 358, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 358, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 487, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 487, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 422, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 422, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 375, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 375, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 439, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 439, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 294, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 294, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 119, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 119, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 455, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 455, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 166, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 166, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 231, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 231, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 55, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 55, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 183, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 183, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 39, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 39, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 22, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 22, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 2, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 2, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 407, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 407, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 71, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 71, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 151, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 151, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 103, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 103, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 199, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 199, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 264, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 264, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 392, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 392, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 327, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 327, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 280, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 280, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 503, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 503, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 311, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 311, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 471, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 471, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 215, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 215, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 344, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 344, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 135, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 135, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 87, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 87, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 247, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 247, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 359, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 359, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 488, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 488, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 423, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 423, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 376, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 376, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 440, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 440, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 295, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 295, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 120, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 120, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 456, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 456, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 167, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 167, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 232, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 232, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 56, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 56, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 184, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 184, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 40, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 40, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 23, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 23, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 3, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 3, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 408, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 408, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 72, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 72, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 152, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 152, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 104, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 104, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 200, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 200, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 265, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 265, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 393, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 393, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 328, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 328, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 281, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 281, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 504, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 504, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 312, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 312, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 472, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 472, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 216, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 216, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 345, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 345, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 136, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 136, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 88, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 88, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 248, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 248, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 360, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 360, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 489, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 489, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 424, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 424, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 377, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 377, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 441, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 441, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 296, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 296, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 121, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 121, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 457, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 457, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 168, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 168, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 233, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 233, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 57, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 57, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 185, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 185, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 41, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 41, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 24, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 24, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 4, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 4, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 409, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 409, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 73, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 73, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 153, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 153, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 105, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 105, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 201, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 201, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 266, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 266, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 394, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 394, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 329, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 329, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 282, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 282, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 505, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 505, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 313, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 313, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 473, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 473, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 217, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 217, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 346, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 346, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 137, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 137, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 89, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 89, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 249, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 249, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 361, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 361, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 490, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 490, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 425, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 425, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 378, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 378, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 442, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 442, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 297, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 297, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 122, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 122, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 458, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 458, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 169, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 169, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 234, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 234, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 58, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 58, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 186, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 186, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 42, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 42, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 25, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 25, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 5, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 5, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 410, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 410, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 74, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 74, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 154, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 154, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 106, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 106, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 202, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 202, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 267, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 267, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 395, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 395, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 330, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 330, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 283, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 283, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 506, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 506, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 314, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 314, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 474, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 474, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 218, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 218, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 347, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 347, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 138, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 138, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 90, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 90, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 250, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 250, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 362, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 362, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 426, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 426, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 379, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 379, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 443, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 443, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 298, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 298, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 123, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 123, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 459, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 459, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 170, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 170, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 235, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 235, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 59, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 59, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 187, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 187, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 43, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 43, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 26, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 26, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 6, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 6, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 411, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 411, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 75, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 75, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 155, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 155, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 107, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 107, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 203, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 203, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 268, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 268, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 396, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 396, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 331, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 331, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 284, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 284, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 507, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 507, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 315, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 315, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 475, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 475, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 219, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 219, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 348, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 348, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 91, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 91, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 251, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 251, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 363, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 363, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 491, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 491, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 427, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 427, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 380, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 380, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 299, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 299, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 124, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 124, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 460, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 460, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 171, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 171, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 236, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 236, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 188, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 188, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 44, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 44, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 27, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 27, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 7, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 7, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 412, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 412, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 76, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 76, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 156, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 156, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 108, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 108, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 204, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 204, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 269, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 269, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 397, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 397, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 332, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 332, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 285, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 285, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 508, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 508, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 316, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 316, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 476, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 476, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 220, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 220, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 139, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 139, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 92, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 92, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 252, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 252, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 364, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 364, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 492, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 492, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 428, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 428, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 381, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 381, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 444, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 444, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 300, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 300, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 461, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 461, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 237, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 237, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 60, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 60, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 45, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 45, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 28, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 28, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 8, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 8, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 413, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 413, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 77, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 77, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 157, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 157, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 109, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 109, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 205, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 205, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 270, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 270, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 398, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 398, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 333, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 333, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 286, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 286, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 509, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 509, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 477, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 477, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 221, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 221, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 349, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 349, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 140, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 140, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 93, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 93, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 365, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 365, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 493, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 493, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 429, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 429, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 382, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 382, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 445, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 445, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 301, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 301, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 125, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 125, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 462, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 462, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 172, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 172, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 238, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 238, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 61, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 61, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 189, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 189, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 46, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 46, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 29, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 29, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 9, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 9, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 414, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 414, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 78, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 78, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 158, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 158, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 110, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 110, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 206, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 206, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 271, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 271, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 399, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 399, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 334, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 334, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 287, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 287, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 510, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 510, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 317, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 317, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 478, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 478, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 222, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 222, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 350, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 350, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 141, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 141, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 94, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 94, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 253, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 253, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 494, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 494, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 383, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 383, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 446, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 446, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 302, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 302, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 126, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 126, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 463, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 463, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 173, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 173, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 239, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 239, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 62, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 62, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 190, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 190, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 47, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 47, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 30, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 30, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 10, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 10, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 415, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 415, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 79, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 79, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 159, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 159, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 111, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 111, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 207, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 207, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 335, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 335, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 511, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 511, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 318, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 318, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 479, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 479, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 223, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 223, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 351, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 351, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 142, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 142, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 95, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 95, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 254, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 254, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 366, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 366, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 495, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 495, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 430, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 430, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 447, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 447, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 303, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 303, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 127, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 127, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 451, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 451, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 174, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 174, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 63, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 63, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 191, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 191, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 31, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 31, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 11, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 11, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 319, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 319, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 143, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 143, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 255, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 255, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 367, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 367, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 431, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 431, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 175, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 175, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 12, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 12, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 13, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 13, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 14, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 14, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+I am rank 0 in nuChi0Eigscomm 15, pSPARC->Xorb[2] is -1.547633E-04
+I am 0 in nuChi0Eigscomm 15, my first spin 0, last kpt is 0, the second eig is -1.689876, occ 1.000000
+---------------------------------------
+Begin Slurm Epilog: Jul-15-2026 14:17:10
+Job ID:        11190723
+User ID:       ahaque41
+Account:       gts-echow7-coda20
+Job name:      run.sh
+Resources:     cpu=512,mem=1T,node=32
+Rsrc Used:     cput=19-05:13:36,vmem=0,walltime=00:54:03,mem=17188K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-007-3-1,atl1-1-02-007-4-1,atl1-1-02-007-5-2,atl1-1-02-007-6-1,atl1-1-02-007-12-2,atl1-1-02-007-13-[1-2],atl1-1-02-007-14-1,atl1-1-02-007-15-[1-2],atl1-1-02-007-16-[1-2],atl1-1-02-007-17-[1-2],atl1-1-02-007-18-[1-2],atl1-1-02-007-19-[1-2],atl1-1-02-007-20-2,atl1-1-02-007-21-[1-2],atl1-1-02-007-22-[1-2],atl1-1-02-007-23-[1-2],atl1-1-02-007-24-[1-2],atl1-1-02-007-26-1,atl1-1-02-007-27-2,atl1-1-02-007-28-[1-2],atl1-1-02-007-29-1
+---------------------------------------

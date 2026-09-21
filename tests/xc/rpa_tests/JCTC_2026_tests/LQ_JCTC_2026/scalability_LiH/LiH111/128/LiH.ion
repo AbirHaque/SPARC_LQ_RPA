@@ -1,0 +1,34 @@
+#=========================
+# format of ion file
+#=========================
+# ATOM_TYPE: <atom type name> 
+# N_TYPE_ATOM: <num of atoms of this type>
+# COORD:
+# <xcoord> <ycoord> <zcoord>
+# ...
+# RELAX:
+# <xrelax> <yrelax> <zrelax>
+# ...
+
+
+# Reminder: when changing number of atoms, change the RELAX flags accordingly
+#           as well.
+ATOM_TYPE: H
+PSEUDO_POT: ../01_H_1_1.0_1.0_pbe_v1.0.psp8
+N_TYPE_ATOM: 4
+COORD: 
+0.31472	0.13235	4.25320
+0.40579	3.39322	0.46487
+3.42273	-0.22152	-0.34245
+4.20912	3.84261	4.26632
+
+
+ATOM_TYPE: Li
+PSEUDO_POT: ../03_Li_3_1.6_1.6_pbe_v1.0.psp8
+N_TYPE_ATOM: 4
+COORD: 
+0.45716	-0.07823	0.15578
+-0.01458	4.21148	3.33149
+4.0960	0.29220	4.14488
+3.4376	4.25524	0.43395
+

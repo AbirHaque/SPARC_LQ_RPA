@@ -1,0 +1,9 @@
+global rank = 208, size_blacscomm = 512, nuChi0 ScaLAPACK topology 0, Dims = (16, 32)
+global rank = 208, 1D topo, my nuChi0 blacs rank = 208, BLCYC size (16384, 32), actual size (16384, 32), DMndspe 16384, mb 16384, myrow 0, nprow 1, nuChi0Neig 16384, nb 32, mycol 208, npcol 512
+global rank = 208, 1D topo, my Permute blacs rank = 208, BLCYC size (16384, 32), nuChi0Neig 16384, mbP 16384, myrow 0, nprow 1, nuChi0Neig 16384, nbP 32, mycol 208, npcol 512
+global rank = 208, 2D topo, my nuChi0 blacs rank = 208, BLCYC size (1024, 512), actual size (16384, 32), DMndspe 16384, mb 1024, myrow 6, nprow 16, nuChi0Neig 16384, nb 512, mycol 16, npcol 32
+global rank = 208, Hp topo, mb = 128, mbQ = 128, myrow 6, nprow 16, mycol 16, npcol 32, nr_Hp = 1024, nc_Hp = 512
+global rank = 208, Maximun number of processors for RPA eigenvalue solver is 594
+global rank = 208, The dimension of subgrid for RPA eigen solver is (22 x 22).
+global rank = 208, HpSQ topo 0, mbHpSQ = 128, myrow 208, nprow 512, mycol 0, npcol 1, nrHpSQ = 1, ncHpSQ = 16384
+global rank = 208, HpSQ topo 0, myrow 208, nprow 512, mycol 0, npcol 1, nrvk 32, vkStart 6656, vkEnd 6687, nrvk_BLCYC 1

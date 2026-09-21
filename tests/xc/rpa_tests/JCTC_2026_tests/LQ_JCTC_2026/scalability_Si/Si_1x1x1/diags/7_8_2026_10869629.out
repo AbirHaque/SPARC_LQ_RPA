@@ -1,0 +1,155 @@
+---------------------------------------
+Begin Slurm Prolog: Jul-08-2026 14:41:11
+Job ID:    10869629
+User ID:   ahaque41
+Account:   gts-echow7-coda20
+Job name:  run.sh
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+Lmod is automatically replacing "mvapich2/2.3.7-1" with "openmpi/4.1.5".
+
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+
+fchrg = 4.00000000 > 0.0 (icmod != 0)
+This pseudopotential contains non-linear core correction. 
+
+fchrg = 4.000000, READING MODEL CORE CHARGE!
+
+Orbital folder 'orbitals' created!
+WARNING: Number of bands may be insufficient for efficient SCF convergence.
+
+WARNING: REFERENCE_CUFOFF (0.500000 Bohr) < MESH_SPACING (dx 0.513000 Bohr, dy 0.513000 Bohr, dz 0.513000 Bohr) in SCF#1
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+The program took 0.838 s.
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+---------------------------------------
+Begin Slurm Epilog: Jul-08-2026 14:41:18
+Job ID:        10869629
+User ID:       ahaque41
+Account:       gts-echow7-coda20
+Job name:      run.sh
+Resources:     cpu=128,mem=512G,node=8
+Rsrc Used:     cput=00:21:20,vmem=0,walltime=00:00:10,mem=14144K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-01-003-19-1,atl1-1-01-003-25-1,atl1-1-01-004-6-2,atl1-1-01-004-10-1,atl1-1-01-004-12-1,atl1-1-01-004-16-1,atl1-1-03-003-26-1,atl1-1-03-003-29-2
+---------------------------------------

@@ -1,0 +1,452 @@
+---------------------------------------
+Begin Slurm Prolog: Jul-08-2026 15:17:19
+Job ID:    10870461
+User ID:   ahaque41
+Account:   gts-echow7-coda20
+Job name:  run.sh
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+Lmod is automatically replacing "mvapich2/2.3.7-1" with "openmpi/4.1.5".
+
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 40, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 40, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 96, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 96, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 56, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 56, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 8, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 8, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 16, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 16, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 32, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 32, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 72, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 72, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 80, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 80, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 113, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 113, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 41, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 41, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 97, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 97, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 57, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 57, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 9, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 9, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 120, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 120, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 48, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 48, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 64, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 64, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 104, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 104, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 17, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 17, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 88, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 88, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 24, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 24, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 1, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 1, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 33, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 33, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 73, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 73, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 81, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 81, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 114, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 114, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 42, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 42, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 98, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 98, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 58, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 58, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 10, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 10, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 121, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 121, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 49, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 49, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 65, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 65, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 105, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 105, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 18, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 18, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 89, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 89, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 25, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 25, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 2, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 2, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 34, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 34, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 74, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 74, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 82, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 82, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 115, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 115, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 43, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 43, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 99, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 99, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 59, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 59, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 11, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 11, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 122, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 122, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 50, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 50, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 66, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 66, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 106, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 106, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 19, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 19, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 90, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 90, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 26, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 26, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 3, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 3, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 35, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 35, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 75, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 75, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 83, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 83, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 116, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 116, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 44, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 44, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 100, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 100, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 60, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 60, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 12, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 12, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 123, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 123, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 51, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 51, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 67, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 67, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 107, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 107, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 20, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 20, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 91, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 91, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 27, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 27, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 4, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 4, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 36, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 36, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 76, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 76, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 84, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 84, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 117, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 117, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 45, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 45, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 101, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 101, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 61, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 61, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 13, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 13, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 124, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 124, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 52, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 52, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 68, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 68, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 108, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 108, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 21, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 21, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 92, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 92, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 28, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 28, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 5, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 5, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 37, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 37, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 77, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 77, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 85, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 85, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 118, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 118, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 46, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 46, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 102, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 102, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 62, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 62, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 14, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 14, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 125, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 125, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 53, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 53, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 69, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 69, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 109, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 109, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 22, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 22, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 93, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 93, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 29, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 29, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 6, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 6, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 38, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 38, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 78, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 78, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 86, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 86, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 119, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 119, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 47, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 47, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 103, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 103, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 63, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 63, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 15, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 15, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 126, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 126, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 54, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 54, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 70, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 70, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 110, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 110, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 23, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 23, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 94, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 94, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 30, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 30, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 7, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 7, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 39, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 39, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 79, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 79, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 87, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 87, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 112, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 112, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 127, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 127, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 55, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 55, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 71, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 71, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 111, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 111, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 95, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 95, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+I am rank 0 in nuChi0Eigscomm 31, pSPARC->Xorb[2] is 1.164270E-02
+I am 0 in nuChi0Eigscomm 31, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+
+fchrg = 4.00000000 > 0.0 (icmod != 0)
+This pseudopotential contains non-linear core correction. 
+
+fchrg = 4.000000, READING MODEL CORE CHARGE!
+
+Failed to create orbital folder orbitals! Maybe there is such folder.
+read block size 1
+After symmetry reduction, Nqpts_sym = 1
+global rank 0, maxBlockSize 1, minBlockSize 1
+rank = 0, myrank_mpi 0, nprocs_mpi 128, bandcomm_index 0, dmcomm exist 1, myrow 0, nprow 1, mycol 0, npcol 1
+the time for composing permute matrix is 3.456 ms
+Cannot print eigenvalues of nu chi0 when SQ is selected. The flag is invalid.
+WARNING: Number of bands may be insufficient for efficient SCF convergence.
+the name of the orbital file is orbitals/band0_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band1_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band2_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band3_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band4_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band5_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band6_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band7_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band8_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band9_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band10_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band11_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band12_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band13_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band14_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band15_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band16_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band17_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band18_spin0.orbit, folder directory length -1
+the name of the orbital file is orbitals/band19_spin0.orbit, folder directory length -1
+I am rank 0 in nuChi0Eigscomm 0, pSPARC->Xorb[2] is 1.164270E-02
+I am rank 0 in nuChi0Eigscomm 0; the 2th density is  0.035986
+I am 0 in nuChi0Eigscomm 0, my first spin 0, last kpt is 0, the second eig is -0.136509, occ 1.000000
+qpt 1, omega 1, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.002105, tolErpaTermConverge 0.000000, flagIter 21227216
+qpt 1, omega 2, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.028615, tolErpaTermConverge 0.000000, flagIter 21220592
+qpt 1, omega 3, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.078377, tolErpaTermConverge 0.000000, flagIter 21189488
+qpt 1, omega 4, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.171782, tolErpaTermConverge 0.000000, flagIter 21363520
+qpt 1, omega 5, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.318679, tolErpaTermConverge 0.000000, flagIter 21203824
+qpt 1, omega 6, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.440089, tolErpaTermConverge 0.000000, flagIter 21224848
+qpt 1, omega 7, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.417602, tolErpaTermConverge 0.000000, flagIter 21227216
+qpt 1, omega 8, subspace iteration 0, ErpaTerm 0.000000, lastErpaTerm -0.236045, tolErpaTermConverge 0.000000, flagIter 21363520
+The RPA calculation took 240.211 s.
+The program took 240.223 s.
+---------------------------------------
+Begin Slurm Epilog: Jul-08-2026 15:21:26
+Job ID:        10870461
+User ID:       ahaque41
+Account:       gts-echow7-coda20
+Job name:      run.sh
+Resources:     cpu=128,mem=128G,node=16
+Rsrc Used:     cput=08:51:12,vmem=0,walltime=00:04:09,mem=16556K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-008-1-1,atl1-1-02-008-18-2,atl1-1-02-008-20-2,atl1-1-02-009-10-1,atl1-1-02-009-14-2,atl1-1-02-009-19-2,atl1-1-02-009-26-1,atl1-1-02-009-28-1,atl1-1-02-011-1-1,atl1-1-02-011-3-[1-2],atl1-1-02-011-5-1,atl1-1-02-011-6-1,atl1-1-02-011-11-2,atl1-1-02-011-13-1,atl1-1-02-011-20-1
+---------------------------------------
