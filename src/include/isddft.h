@@ -303,6 +303,7 @@ typedef struct _SPARC_OBJ{
     char ExxEnDensTCubFilename[L_STRING];
     char ExxEnDensUCubFilename[L_STRING];
     char ExxEnDensDCubFilename[L_STRING];
+	char spDFTFilename[L_STRING];
     
     /* Parallelizing parameters */
     int num_node;       // number of processor nodes
@@ -331,6 +332,7 @@ typedef struct _SPARC_OBJ{
     MPI_Comm kptcomm_topo; // Cartesian topology set up on top of a kptcomm (LOCAL)
     MPI_Comm kptcomm_topo_excl; // processors excluded from the Cart topo within a kptcomm (LOCAL)
     MPI_Comm kptcomm_inter; // inter-communicator connecting the Cart topology and the rest in a kptcomm (LOCAL)
+    MPI_Comm kptcomm_active; // communicator split by whether the process is active (bandcomm_index >= 0, dmcomm not NULL) or not
     MPI_Comm kpt_bridge_comm; // bridging communicator that connects all processes in kptcomm that have the same rank (LOCAL)
     MPI_Comm bandcomm;  // communicator for band calculations (LOCAL)
     MPI_Comm dmcomm;    // communicator for domain decomposition (LOCAL)
@@ -377,7 +379,7 @@ typedef struct _SPARC_OBJ{
     int Nspdend;        // Number of columns of electron density, diagonal terms only
     int Nspden;         // Number of columns of spin density
     int Nmag;           // Number of columns of magnetization
-
+    
     /* Options for MD & Relaxation */
     int MDFlag;
     int RelaxFlag;
@@ -538,6 +540,7 @@ typedef struct _SPARC_OBJ{
     double _Complex *Lanczos_x0_complex;       // initial guess vector (complex) for Lanczos
 
     double *Veff_loc_dmcomm;            // effective local potential distributed in psi-domain (LOCAL)
+    double *Veff_loc_dmcomm_temp; // temporary saving of effective local potential distributed in psi-domain (LOCAL)    
     double *Veff_loc_dmcomm_phi;        // effective local potential distributed in phi-domain (LOCAL)
     double *Veff_dia_loc_dmcomm_phi;    // effective local potential distributed in phi-domain (LOCAL), diagonal term
     double *Veff_loc_dmcomm_phi_in;     // input effective local potential at each SCF distributed in phi-domain (LOCAL)
@@ -551,7 +554,13 @@ typedef struct _SPARC_OBJ{
     double *mixing_hist_Fk;      // residual matrix of the residual of Veff_loc (LOCAL)
     double *mixing_hist_Pfk;     // the preconditioned residual distributed in phi-domain (LOCAL)
     double *mix_Gamma;           // the calculated Gamma for Anderson Mixing
-    
+
+    int    scf_err_type;        // scf error definition type
+    double scf_err;             // scf error
+    double t_qe_extra;          // // this is the extra unnecessary time we spent in order to evaluate QE scf error
+    // these two arrays are used only for evaluating QE scf error
+    double *rho_dmcomm_phi_in;  // input electron density distributed in phi-domain (LOCAL)
+    double *phi_dmcomm_phi_in;  // input electrostatic potential distributed in phi-domain (LOCAL)
     double *psdChrgDens;          // pseudocharge density, "b" (LOCAL)
     double *psdChrgDens_ref;      // reference pseudocharge density, "b_ref" (LOCAL)
     double *Vc;                   // difference between reference pseudopotential V_ref and pseudopotential V, Vc = V_ref - V (LOCAL)
@@ -602,8 +611,8 @@ typedef struct _SPARC_OBJ{
     double *Mp_s;                 // whole projected mass matrix Mp redistributed for solving eigenproblem (GLOBAL)
     #ifdef ACCEL
     int useACCEL;                 // SPARCX_ACCEL_NOTE Flag needed to trigger GPU Acceleration
-    int useHIP;                   // Flag to hook in HIP
-    int useACCELGT;                  // Glag to indicate whether exact exchange code is accelerated  
+	int useHIP;                   // Flag to indicate whether HIP code is accelerated
+	int useACCELGT;                  // Glag to indicate whether exact exchange code is accelerated  
     #endif
     int useLAPACK;                // flag for using LAPACK_dsygv to solve subspace eigenproblem
     int eig_serial_maxns;// maximum Nstates for using LAPACK to solve the subspace eigenproblem by default,
@@ -661,7 +670,6 @@ typedef struct _SPARC_OBJ{
     double *k1_loc;
     double *k2_loc;
     double *k3_loc;
-
     /* system description */
     int BC;             // boundary conditions
     int BCx;            // boundary condition in x dir
@@ -700,7 +708,7 @@ typedef struct _SPARC_OBJ{
     double *atom_spin;      // stores the net spin on each atom
     PSD_OBJ *psd;           // struct array storing pseudopotential info.
     ///////////////////////////////////////////////////////////
-
+    
     /* atom solver */
     int *atom_solve_flag; // To indicate if a radial atom solve is required for the particular atom type
     int atom_solve_count; // total number of atom types for which atom_solve_count is desired
@@ -780,10 +788,11 @@ typedef struct _SPARC_OBJ{
     double xi_3_SOAP;
     double F_tol_SOAP;
     double F_rel_scale;
+    char hnl_file_name[L_STRING];
     char mlff_data_folder[L_STRING];
     double stress_rel_scale[6];
-    int MLFF_DFT_fq;
-    
+	int MLFF_DFT_fq;
+
     /* Energies */
     double Esc;            // self + correction energy, Esc = Eself + Ec
     double Efermi;         // fermi energy
@@ -864,6 +873,7 @@ typedef struct _SPARC_OBJ{
     double amu2au;         // conversion factor for atomic mass unit -> atomic unit of mass
     double fs2atu;         // conversion factor for femto second -> atomic unit of time (Jiffy) 
     double relaxPrTarget;  // Target pressure for cell relaxation in GPa
+    int atom_isClose;      // Flag to store atom is close
     // NPT OR NPH common
     int NPTscaleVecs[3];    // which lattice vector can be rescaled?
     int NPTconstraintFlag; // confinement on side length of cell. none: no length confinement (default); 1: a:b keeps unchanged; 2: a:c keeps unchanged; 
@@ -928,12 +938,12 @@ typedef struct _SPARC_OBJ{
     double NPH_bmass; // fictitious mass of barostat (bmass) used in NPT_NP
     double temperature;
     double internal_pressure;
-   
+
     // Relaxation
     double Relax_fac;      // Relaxation factor
     int elecgs_Count;      // To count the number of times electronic ground state is calculated
     double *d;             // Search direction in case of NLCG 
-    double NLCG_sigma;     // parameter used in NLCG   
+    double NLCG_sigma;          // parameter used in NLCG   
     int L_history;         // maximum number of relaxation steps in LBFGS stored
     double L_finit_stp;    // finite step for line optiization
     double L_maxmov;       // maximum allowed step size for translation
@@ -1038,6 +1048,9 @@ typedef struct _SPARC_OBJ{
     double *vxcMGGA3_loc_dmcomm; // d(n\epsilon)/d(\tau), in dmcomm (saving \psi)
     double *vxcMGGA3_loc_kptcomm; // d(n\epsilon)/d(\tau), in kptcomm (handling different kpts)
 
+    /* ACFDT-RPA calculation */
+    int rpaFlag;
+
     /* Exact Exchange */
     int usefock;                    // Flag for if using Hartree-Fock operator 
     double TOL_FOCK;                // Exact exchange potential option
@@ -1046,8 +1059,7 @@ typedef struct _SPARC_OBJ{
     int MINIT_FOCK;                 // Minimum number of iterations for Hartree-Fock outer loop
     double exx_frac;                // hybrid mixing coefficient
     double hyb_range_fock;          // hybrid short range for fock operator 
-    double hyb_range_pbe;           // hybrid short range for exchange correlation 
-    int EXXMeth_Flag;               // Method to solve Poisson's equation, in Real space or Fourier space
+    double hyb_range_pbe;           // hybrid short range for exchange correlation     
     double Eexx;                    // Exact Exchange energy
     double *psi_outer;              // outer orbitals to construct Hartree-Fock operator 
     double *occ_outer;              // outer occupations to construct Hartree-Fock operator 
@@ -1115,6 +1127,7 @@ typedef struct _SPARC_OBJ{
     MPEXP_OBJ *MpExp_exx;           // structure for multipole expansion
     int ExxMethod;                  // method for solving poissons equation, kronecker product way or FFT
     double fock_err;                // Error in outer loop
+    int outer_loop_count;           // outer loop count
 
     /* SQ methods */
     int sqAmbientFlag;                     // Flag of SQ method
@@ -1143,6 +1156,32 @@ typedef struct _SPARC_OBJ{
     double OFDFT_Ek;
     double OFDFT_Eele;
 
+    /* Extended First-Principles Molecular Dynamics (ext-FPMD) */
+    int ext_FPMD_Flag; // FLAG for using EXTended FPMD model
+    int ext_FPMD_nscut; // Number of States at CUT
+    double ext_FPMD_U0; // constant energy shift U0
+    double ext_FPMD_highETk; // kinetic energy of high-energy electrons
+
+	/* Spectral-partitioned DFT variables */
+	int spDFT_Flag;       		// flag for using spDFT method
+	double spDFT_tau_s;   		// smearing for spectral-partitioning in Ha
+	double spDFT_tol_occ;          // maximum occupation allowed for the highest-energy planewave
+	int spDFT_NG;
+	double spDFT_pres_homo;
+	double *spDFT_GVec;
+	double *spDFT_Gocc1;
+	double *spDFT_Gocc2;
+	double *spDFT_Geigen;
+	double *spDFT_Geigen_kin_nl;
+	double *spDFT_Gstress_kin_nl;
+	double spDFT_stress[6];
+	double *spDFT_Gpres_nl;
+	double *spDFT_Ec;
+	int spDFT_isesplit_const;
+	int PrintspDFTFlag;
+	double *spDFT_esplit;
+
+
     /* cyclix */
     int CyclixFlag;
     double twist;  // Twist of the cyclinder in radian/Bohr
@@ -1168,6 +1207,9 @@ typedef struct _SPARC_OBJ{
     double _Complex *vl_kpt;
     double _Complex *vr_kpt;
 
+    /* Debugging */
+    int nonlocal_flag; // flag to toggle the nonlocal projector term, 0 - off, 1 - on (default)
+    
     // Extrapolation options
     double *delectronDens;
     double *delectronDens_0dt;
@@ -1207,7 +1249,8 @@ typedef struct _SPARC_OBJ{
     // Domain parallelization (decomposition) data layout for calculating projected Hamiltonian, 
     // generalized eigen problem, and subspace rotation
     void *DP_CheFSI;     // Pointer to a DP_CheFSI_s data structure for those three procedures w/o Kpt
-    void *DP_CheFSI_kpt; // Pointer to a DP_CheFSI_kpt_s data structure for those three procedures w/ Kpt    
+    void *DP_CheFSI_kpt; // Pointer to a DP_CheFSI_kpt_s data structure for those three procedures w/ Kpt
+
     /* Band structure plot*/
     int n_kpt_line;
     double kredx[L_kpoint],kredy[L_kpoint],kredz[L_kpoint];
@@ -1219,6 +1262,11 @@ typedef struct _SPARC_OBJ{
     char InDensDCubFilename[L_STRING]; 
     int densfilecount;
     int readInitDens; // flag for reading inital density
+
+    // Structure factor inputs
+    int getSF_MD;
+    int getSF_MD_freq;
+    int printSF_MD_freq;
    /* Socket interface
       Please keep this section as the last block in SPARC_OBJ definition,
       add new features before this block.
@@ -1233,8 +1281,18 @@ typedef struct _SPARC_OBJ{
     int socket_fd;             // socket file descriptor; This should be initialized to -1
     int socket_max_niter;           // max number of iterations. Default is 10000
 #endif
-}SPARC_OBJ;
 
+    /*Electric Field*/
+    double ElectricFieldX;            // Electric field in x direction 
+    double ElectricFieldY;            // Electric field in y direction
+    double ElectricFieldZ;            // Electric field in z direction
+
+    // Variables for molecule, wire and slab boundary conditions for electrostatics
+    int Lmax_molecule;                // Maximum l value in spherical harmonic for molecule
+    int Lmax_wire[2];                 // Maximum l value in Bessel function for wire
+    double Ecut_surface;                 // Maximum Ecut value for slabs
+
+}SPARC_OBJ;
 
 
 

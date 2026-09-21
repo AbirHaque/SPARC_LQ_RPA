@@ -20,6 +20,7 @@
 //#include "tools.h"
 #include "finalization.h"
 #include "isddft.h"
+#include "main_RPA.h"
 #include "electronicGroundState.h"
 
 int main(int argc, char *argv[]) {
@@ -41,14 +42,18 @@ int main(int argc, char *argv[]) {
     
     // Read files and initialize
     Initialize(&SPARC, argc, argv);
- 
-    if (SPARC.MDFlag == 1)
-        main_MD(&SPARC);
-    else if (SPARC.RelaxFlag != 0)
-        main_Relax(&SPARC);
-    else
-        Calculate_Properties(&SPARC);
-        // Calculate_electronicGroundState(&SPARC);
+    if (SPARC.rpaFlag) {
+        main_RPA(&SPARC, argc, argv);
+    }
+    else{
+        if (SPARC.MDFlag == 1)
+            main_MD(&SPARC);
+        else if (SPARC.RelaxFlag != 0)
+            main_Relax(&SPARC);
+        else
+            Calculate_Properties(&SPARC);
+            // Calculate_electronicGroundState(&SPARC);
+    }
     Finalize(&SPARC);
 
 

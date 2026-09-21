@@ -2,10 +2,10 @@
 # Warning: don't turn on USE_MKL and USE_SCALAPACK simultaneously
 # Set USE_MKL = 1 to compile with MKL BLAS, LAPACK, and ScaLAPACK
 # Set USE_MKL = 0 otherwise
-USE_MKL       = 1
+USE_MKL       = 0
 # Set USE_SCALAPACK = 1 to compile with non-MKL BLAS, LAPACK, and ScaLAPACK
 # Set USE_SCALAPACK = 0 to compile with non-MKL BLAS and LAPACK only
-USE_SCALAPACK = 0
+USE_SCALAPACK = 1
 # Set USE_DP_SUBEIG = 1 to use SPARC rather than ScaLAPACK routines for matrix data distribution
 # (USE_DP_SUBEIG = 1 is required if both USE_MKL = 0 and USE_SCALAPACK = 0)
 # Set USE_DP_SUBEIG = 0 to use ScaLAPACK rather than SPARC routines
@@ -18,31 +18,17 @@ DEBUG_MODE    = 0
 # Set USE_SOCKET = 0 to disable compilation with socket support
 USE_SOCKET    = 0
 
-# NOTE: the halo exchange goes through SPARC_Ineighbor_alltoallv
-# (src/mpi_nbr_shim.c), which is ALWAYS ACTIVE and needs no switch. MPI
-# implementations disagree on how to pair DUPLICATE neighbour edges, which the
-# neighbour list contains whenever dims[d] <= 2 and direction d is periodic --
-# measured with tests/mpi_halo/halo_convention_test on one 2x3x3 shape:
-#     Cray MPICH 9.0.1.498 : swaps         (MPI-4.0 sec 8.6 Example 8.10)
-#     MVAPICH2 2.3.7       : list order    (pre-errata convention)
-#     Open MPI 4.1.2       : list order    (pre-errata convention)
-# so no packing of SPARC's own is correct on all of them, and SPARC does the
-# pairing itself. With no repeated rank in the neighbour list the wrapper
-# forwards to MPI_Ineighbor_alltoallv, so an all-dims>=3 decomposition keeps the
-# native path and its overlap. Building with -DSPARC_MPI_NBR_NO_SHIM restores
-# the bare library call; that is correct only where halo_convention_test passes
-# on the target machine, and it fails silently -- wrong energies, not an error
-# -- where it does not.
-
 # set USE_ELPA = 1 to use ELPA for parallel eigensolver. ELPA requires MKL or Scalapack
 USE_ELPA      = 0
 
 # Enable SIMD vectorization for complex stencil routines
 # CAUTION: for some compilers this results in wrong results! Use for intel/19.0.3 or later versions
-ENABLE_SIMD_COMPLEX = 0
+ENABLE_SIMD_COMPLEX = 1
 
 # Enable ACCEL by GT
 USE_ACCELGT = 0
+
+USE_FRONTIER = 1
 
 # Specify the path MKLROOT if it's not already set to compile with MKL, e.g,
 # MKLROOT = /opt/intel/compilers_and_libraries_2017.4.196/linux/mkl
@@ -58,24 +44,35 @@ USE_ACCELGT = 0
 # BLASROOT = /usr/lib64
 # LDFLAGS += -L$(BLASROOT)
 
-CPPFLAGS = -Iinclude/ -Ixc/exx/include -Ixc/vdW/d3/include -Ixc/vdW/vdWDF/include -Ixc/mgga/include -IlinearScaling/include -Iofdft/ -Icyclix/include -Icyclix/mlff -IhighT/mlff -Imlff/ -IhighT/include \
+CPPFLAGS = -Iinclude/ -Ixc/exx/include -Ixc/vdW/d3/include -Ixc/vdW/vdWDF/include -Ixc/mgga/include -Ixc/rpa/include -IlinearScaling/include -Iofdft/ -Icyclix/include -Icyclix/mlff -IhighT/mlff -Imlff/ -IhighT/include \
            -Iatom/include -Iatom/mgga_atom/include -Iatom/exx_atom/include -Ixc/hubbard/include
+ifeq ($(USE_FRONTIER), 1)
+CPPFLAGS += -I/opt/cray/pe/libsci/24.11.0/GNU/12.3/x86_64/include
+CPPFLAGS += -DTIOGA
+LDFLAGS += -L/opt/cray/pe/libsci/24.11.0/GNU/12.3/x86_64/lib
+endif
 LDLIBS   = -lrt
-
 ifeq ($(USE_MKL), 1)
 CPPFLAGS += -m64 -I${MKLROOT}/include -DUSE_MKL
 LDFLAGS   = -L${MKLROOT}/lib/intel64
 LDLIBS   += -Wl,-rpath=${MKLROOT}/lib/intel64,--no-as-needed -lmkl_scalapack_lp64 -lmkl_cdft_core -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lmkl_blacs_intelmpi_lp64 -lpthread -lm -ldl
 else ifeq ($(USE_SCALAPACK), 1)
 CPPFLAGS += -DUSE_SCALAPACK
-LDLIBS   += -lscalapack
+ifeq ($(USE_FRONTIER), 0)
+        LDLIBS   += -lscalapack
+endif
 endif
 
 # if MKL is not used, link BLAS and LAPACK directly
 ifeq ($(USE_MKL), 0)
 # if you are using BLAS instead of OpenBLAS, change -lopenblas to -lblas
 # and move it to after -llapack
-LDLIBS += -lopenblas -lm
+ifeq ($(USE_FRONTIER), 0)
+        LDLIBS += -lopenblas -lm
+endif
+ifeq ($(USE_FRONTIER), 1)
+        LDLIBS += -lsci_gnu_mpi -lsci_gnu -lm
+endif
 #LDLIBS += -llapacke -llapack -lblas -lm
 endif
 
@@ -128,6 +125,10 @@ OBJSC = main.o initialization.o readfiles.o atomdata.o parallelization.o relax.o
         xc/exx/exactExchange.o xc/exx/exactExchangeKpt.o xc/exx/exactExchangeInitialization.o      \
         xc/exx/exactExchangeFinalization.o xc/exx/exactExchangeStress.o                            \
         xc/exx/exactExchangePressure.o xc/exx/exactExchangeEnergyDensity.o \
+        xc/rpa/main_RPA.o xc/rpa/initialization_SPARC.o xc/rpa/initialization_RPA.o xc/rpa/generateKgrid.o xc/rpa/parallelization_RPA.o xc/rpa/parallelization_SPARC.o \
+	xc/rpa/restoreElectronicGroundState.o xc/rpa/prepare_PQ_operators.o xc/rpa/collectOrbitals.o xc/rpa/subspaceIter.o xc/rpa/subspaceIterSQ.o xc/rpa/lanczosQuadrature.o xc/rpa/eigenSolverGamma_RPA.o xc/rpa/eigenSolverKpt_RPA.o \
+        xc/rpa/nuChi0VecRoutines.o xc/rpa/sternheimerEquation.o xc/rpa/sternheimerEquationKpt.o xc/rpa/linearSolvers.o xc/rpa/electrostatics_RPA.o xc/rpa/printResult.o \
+        xc/rpa/finalization_RPA.o xc/rpa/test_Hx_nuChi0_eigSolver.o xc/rpa/tools_RPA.o xc/rpa/traceSolverSQ.o \
         linearScaling/sq.o linearScaling/sqInitialization.o linearScaling/sqFinalization.o linearScaling/sqEnergy.o\
         linearScaling/sqDensity.o linearScaling/sqNlocVecRoutines.o linearScaling/sqParallelization.o linearScaling/sqProperties.o\
         highT/sqHighTExactExchange.o highT/sqHighT.o highT/sqHighTDensity.o highT/sqHighTInitialization.o\

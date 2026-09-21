@@ -24,3 +24,4 @@ __pycache__/
 .ipynb_checkpoints/
 outputs/
 .DS_Store
+tests
